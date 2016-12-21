@@ -22,6 +22,16 @@
     
   ```
   
+  重新安装 Homebrew
+  
+  ```bash
+  
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  
+  ```
+  
 2. [iterm2](https://www.iterm2.com/) + [zsh](https://www.zsh.org/) + [Oh my zsh](http://ohmyz.sh/)
   
   ```bash

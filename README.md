@@ -15,8 +15,8 @@
   git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
     
   # 替换 Homebrew Bottles源
-  echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
-  source ~/.bash_profile
+  echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zsh_profile
+  source ~/.zsh_profile
 
   brew update
     

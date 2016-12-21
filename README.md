@@ -6,7 +6,24 @@
 
 1. [Homebrew](http://brew.sh/index_zh-cn.html)
 
+  更新 Homebrew 源
+  
+  ```bash
+  
+  # 替换 homebrew-core源
+  cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+  git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
+    
+  # 替换 Homebrew Bottles源
+  echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
+  source ~/.bash_profile
+
+  brew update
+    
+  ```
+  
 2. [iterm2](https://www.iterm2.com/) + [zsh](https://www.zsh.org/) + [Oh my zsh](http://ohmyz.sh/)
+  
   ```bash
   
   # 切换到zsh
